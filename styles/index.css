@@ -1,0 +1,92 @@
+body, html {
+  background-color: #57413c;
+  color: #ffffff;
+  height: 100%;
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+h3 {
+  margin: 0rem;
+}
+
+h4 {
+  margin: 0rem;
+}
+
+h5 {
+  margin: 0;
+}
+
+.tv {
+  background: url(../assets/images/tvbg.png), url(../assets/images/jeapardy2.png);
+  height: 100%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tv__top-card-container {
+  width: 62rem;
+  height: 8rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tv__top-card {
+  background-color: #190088;
+  border-radius: 1rem;
+  border: 2px solid #fffd79;
+  box-sizing: border-box;
+  height: 2rem;
+  width: 30%;
+}
+.tv__trivia-card-container {
+  width: 70%;
+  height: 30rem;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+.tv__trivia-card-question {
+  background: url(../assets/images/ron1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 1rem;
+  border: 2px solid #6e016e;
+  box-sizing: border-box;
+  width: 42%;
+  z-index: 1;
+}
+.tv__trivia-card-answer {
+  background-color: #190088;
+  border-radius: 1rem;
+  border: 2px solid #fffd79;
+  box-sizing: border-box;
+  width: 42%;
+}
+.tv__reset-card-container {
+  width: 62rem;
+  height: 8rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.tv__reset-card {
+  background-color: #090030;
+  border-radius: 1rem;
+  border: 2px solid #fffd79;
+  box-sizing: border-box;
+  width: 25%;
+  color: white;
+}/*# sourceMappingURL=index.css.map */
